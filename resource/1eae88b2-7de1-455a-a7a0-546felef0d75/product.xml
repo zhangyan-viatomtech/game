@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product wearkind="NO_WEARDEVICE" ver="1.0.0" uuid="1eae88b2-7de1-455a-a7a0-546felef0d75" protocol="XXX_XXX" kind="HDK_HEART_RATE">
+<manifest summary="IDS_device_8806_fest_2" name="IDS_device_8806_fest_1" image="hw_8806_fest_1"/>
+<description>
+    <content text="IDS_device_8806_desc_1" img="hw_8806_desc_1"/>
+    <content text="IDS_device_8806_desc_2" img="hw_8806_desc_2"/>
+    <content text="IDS_device_8806_desc_3" img="hw_8806_desc_3"/>
+    <content text="IDS_device_8806_desc_4" img="hw_8806_desc_4"/>
+    <content text="IDS_device_8806_desc_5" img="hw_8806_desc_5"/>
+</description>
+<guide type="bind">
+    <content text="IDS_device_8806_bind_1" img="hw_8806_bind_1"/>
+</guide>
+    <scan pair="no" mode="BLE" duration="15">
+        <filter name="DuoEK" match="FRONT" address=""/>
+    </scan>
+    <measure type="H5" mode="11" kit="d782d67763034c3fbaedb81c763b5e06" entry="NULL"/>
+    <extra deviceId="xxx" buy_url=""/>
+</product>
